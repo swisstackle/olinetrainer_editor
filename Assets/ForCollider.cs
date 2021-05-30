@@ -6,11 +6,11 @@ public class ForCollider : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public GameObject controller;
+    [SerializeField] private GameObject controller;
     private DrawLine dl;
-    private SpriteRenderer renderer; 
+    private SpriteRenderer renderer;
 
-    public string selectableTag = "Selectable";
+    [SerializeField] private string selectableTag = "Selectable";
     private Color selectedColor = Color.yellow;
     private Color defaultcolor = Color.white;
     private bool selected = false;
@@ -25,6 +25,11 @@ public class ForCollider : MonoBehaviour
         renderer = GetComponent<SpriteRenderer>();
     }
 
+    /*
+    * <summary>
+    * Mainly for selecting/deleting a line or player. Also checking if when leftshift is pressed AND mouseposition is on a player, a path can be created. If not, then no path will be created (there cant exist a path without a player).
+    * </summary>
+    */
     private void OnMouseDown()
     {
         if ((Input.GetKey(KeyCode.LeftShift)) && !(Input.GetKey(KeyCode.LeftControl)))
