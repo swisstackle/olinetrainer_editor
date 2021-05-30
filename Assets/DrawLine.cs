@@ -11,29 +11,35 @@ using SFB;
 using System.Threading;
 public class DrawLine : MonoBehaviour
 {
-    public GameObject linePrefab;
-    public GameObject currentLine;
-    public LineRenderer lineRenderer;
-    public List<Vector2> fingerPositions;
+    [SerializeField] private GameObject linePrefab;
+    [SerializeField] private GameObject currentLine;
+    [SerializeField] private LineRenderer lineRenderer;
+    [SerializeField] private List<Vector2> fingerPositions;
     public List<GameObject> lines;
-    
 
-    public GameObject playerPrefab;
-    public GameObject currentPlayer;
-    public SpriteRenderer spriteRenderer;
 
-    public Button newPlayerButton;
+    [SerializeField] private GameObject playerPrefab;
+    [SerializeField] private GameObject currentPlayer;
+    [SerializeField] private SpriteRenderer spriteRenderer;
 
-    public UnityEngine.UI.Button clearButton;
-    public UnityEngine.UI.Button debugButton;
-    public UnityEngine.UI.Button exportButton;
-    public Button openButton;
+    [SerializeField] private Button newPlayerButton;
+
+    [SerializeField] private UnityEngine.UI.Button clearButton;
+    [SerializeField] private UnityEngine.UI.Button debugButton;
+    [SerializeField] private UnityEngine.UI.Button exportButton;
+    [SerializeField] private Button openButton;
 
     public List<GameObject> players;
 
     private EdgeCollider2D collider;
 
 
+
+    /*
+     * <summary>
+     * Initializes button listeners and lists
+     * </summary>
+     */
     void Start()
     {
         players = new List<GameObject>();
@@ -55,9 +61,15 @@ public class DrawLine : MonoBehaviour
 
     }
 
-   
+
 
     // Update is called once per frame
+
+    /*
+     * <summary>
+     * Checks when to update a line or create a player
+     * </summary>
+     */
     void Update()
     {
         if (!EventSystem.current.IsPointerOverGameObject())
@@ -85,25 +97,14 @@ public class DrawLine : MonoBehaviour
 
 
         }
-
-        //var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        //RaycastHit hit;
-        //if(Physics.Raycast(ray, out hit))
-        //{
-        //    var selection = hit.transform;
-
-        //    var selectionRenderer = selection.GetComponent<SpriteRenderer>();
-        //    if (selection.CompareTag(selectableTag))
-        //    {
-        //        if (selectionRenderer != null)
-        //        {
-        //            selectionRenderer.color = this.selectedColor;
-        //        }
-        //    }
-           
-        //}
             
     }
+    /*
+     * <summary>
+     * Creates a path/line for a player and adds it to a list.
+     * </summary>
+     */
+
     public void CreateLine()
     {
         //Check first if mouse lays on one of the buttons; if so, then dont create the line obviously.
@@ -128,7 +129,11 @@ public class DrawLine : MonoBehaviour
                 lines.Add(currentLine);
             }
         }
-    
+    /*
+     * <summary>
+     * Updates a line and adds all new positions to the line according to the mouseposition. 
+     * </summary>
+     */
     void UpdateLine(Vector2 newFingerPos)
     {
         if (!EventSystem.current.IsPointerOverGameObject())
@@ -139,6 +144,11 @@ public class DrawLine : MonoBehaviour
             addColliderPoints(newFingerPos);
         }
     }
+    /*
+     * <summary>
+     * Adds collider points. Why do we need a collider? Because the line needs to be selectable so that the player can delete it if necessary.
+     * </summary>
+     */
     private void addColliderPoints(Vector2 pointToAdd)
     {
         List<Vector2> oldPoints = new List<Vector2>();
@@ -147,6 +157,11 @@ public class DrawLine : MonoBehaviour
         collider.SetPoints(oldPoints);
 
     }
+    /*
+     * <summary>
+     * If you want to add multiple points to the collider. Warning: Not needed nor tested at the moment!
+     * </summary>
+     */
     private void addColliderPoints(Vector2[] pointsToAdd)
     {
         List<Vector2> oldPoints = new List<Vector2>();
@@ -164,7 +179,11 @@ public class DrawLine : MonoBehaviour
         }
 
     }
-
+    /*
+     * <summary>
+     * Delete every player and path
+     * </summary>
+     */
     void Clear()
     {
         fingerPositions.Clear();
@@ -178,7 +197,11 @@ public class DrawLine : MonoBehaviour
             GameObject.Destroy(l);
         }
     }
-
+    /*
+     * <summary>
+     * For debugging.
+     * </summary>
+     */
     void printLines()
     {
         ClearLog();
@@ -195,7 +218,11 @@ public class DrawLine : MonoBehaviour
             }
         }
     }
-
+    /*
+    * <summary>
+    * For debugging.
+    * </summary>
+    */
     public void ClearLog()
     {
         var assembly = Assembly.GetAssembly(typeof(UnityEditor.Editor));
@@ -203,7 +230,11 @@ public class DrawLine : MonoBehaviour
         var method = type.GetMethod("Clear");
         method.Invoke(new object(), null);
     }
-
+    /*
+    * <summary>
+    * Export all paths/lines to a json file.
+    * </summary>
+    */
     void Export()
     {
         //Convert to vector 3 
@@ -237,6 +268,12 @@ public class DrawLine : MonoBehaviour
         
 
     }
+
+    /*
+    * <summary>
+    * Open an existing json file and draw the paths.
+    * </summary>
+    */
     void Open()
     {
         var extensionFilter = new[]
@@ -282,6 +319,11 @@ public class DrawLine : MonoBehaviour
             }
         }
     }
+    /*
+    * <summary>
+    * Create a player...
+    * </summary>
+    */
     void CreatePlayer()
     {
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
