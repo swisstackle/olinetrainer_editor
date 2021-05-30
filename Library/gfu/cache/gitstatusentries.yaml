@@ -1,0 +1,1444 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2021-05-30T10:02:41.443-04:00
+  initializedAtString: 2021-05-30T10:02:40.249-04:00
+  entries:
+  - path: .vsconfig
+    fullPath: C:\Users\alain\unityprojects\editor\.vsconfig
+    projectPath: .vsconfig
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assemblies\AOT\Newtonsoft.Json.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Assemblies\AOT\Newtonsoft.Json.dll
+    projectPath: Assemblies\AOT\Newtonsoft.Json.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Assemblies.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Assemblies.meta
+    projectPath: Assets\Assemblies.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Assemblies\AOT.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Assemblies\AOT.meta
+    projectPath: Assets\Assemblies\AOT.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Assemblies\AOT\Newtonsoft.Json.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Assemblies\AOT\Newtonsoft.Json.dll
+    projectPath: Assets\Assemblies\AOT\Newtonsoft.Json.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Assemblies\AOT\Newtonsoft.Json.dll.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Assemblies\AOT\Newtonsoft.Json.dll.meta
+    projectPath: Assets\Assemblies\AOT\Newtonsoft.Json.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Assets.index
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Assets.index
+    projectPath: Assets\Assets.index
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Assets.index.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Assets.index.meta
+    projectPath: Assets\Assets.index.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\DrawLine.cs
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\DrawLine.cs
+    projectPath: Assets\DrawLine.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\DrawLine.cs.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\DrawLine.cs.meta
+    projectPath: Assets\DrawLine.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField.meta
+    projectPath: Assets\FootballField.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\materials.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\materials.meta
+    projectPath: Assets\FootballField\materials.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\materials\goalPost.mat
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\materials\goalPost.mat
+    projectPath: Assets\FootballField\materials\goalPost.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\materials\goalPost.mat.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\materials\goalPost.mat.meta
+    projectPath: Assets\FootballField\materials\goalPost.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\materials\grass.mat
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\materials\grass.mat
+    projectPath: Assets\FootballField\materials\grass.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\materials\grass.mat.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\materials\grass.mat.meta
+    projectPath: Assets\FootballField\materials\grass.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\materials\lines.mat
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\materials\lines.mat
+    projectPath: Assets\FootballField\materials\lines.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\materials\lines.mat.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\materials\lines.mat.meta
+    projectPath: Assets\FootballField\materials\lines.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\models.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\models.meta
+    projectPath: Assets\FootballField\models.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\models\footballField.fbx
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\models\footballField.fbx
+    projectPath: Assets\FootballField\models\footballField.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\models\footballField.fbx.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\models\footballField.fbx.meta
+    projectPath: Assets\FootballField\models\footballField.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\prefabs.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\prefabs.meta
+    projectPath: Assets\FootballField\prefabs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\prefabs\footballField.prefab
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\prefabs\footballField.prefab
+    projectPath: Assets\FootballField\prefabs\footballField.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\prefabs\footballField.prefab.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\prefabs\footballField.prefab.meta
+    projectPath: Assets\FootballField\prefabs\footballField.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\prefabs\goalPost.prefab
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\prefabs\goalPost.prefab
+    projectPath: Assets\FootballField\prefabs\goalPost.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\prefabs\goalPost.prefab.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\prefabs\goalPost.prefab.meta
+    projectPath: Assets\FootballField\prefabs\goalPost.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\prefabs\goalPost2.prefab
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\prefabs\goalPost2.prefab
+    projectPath: Assets\FootballField\prefabs\goalPost2.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\prefabs\goalPost2.prefab.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\prefabs\goalPost2.prefab.meta
+    projectPath: Assets\FootballField\prefabs\goalPost2.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\prefabs\grass.prefab
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\prefabs\grass.prefab
+    projectPath: Assets\FootballField\prefabs\grass.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\prefabs\grass.prefab.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\prefabs\grass.prefab.meta
+    projectPath: Assets\FootballField\prefabs\grass.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\prefabs\lines.prefab
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\prefabs\lines.prefab
+    projectPath: Assets\FootballField\prefabs\lines.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\prefabs\lines.prefab.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\prefabs\lines.prefab.meta
+    projectPath: Assets\FootballField\prefabs\lines.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\Scenes.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\Scenes.meta
+    projectPath: Assets\FootballField\Scenes.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\Scenes\SampleScene.unity
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\Scenes\SampleScene.unity
+    projectPath: Assets\FootballField\Scenes\SampleScene.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\Scenes\SampleScene.unity.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\Scenes\SampleScene.unity.meta
+    projectPath: Assets\FootballField\Scenes\SampleScene.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\shared.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\shared.meta
+    projectPath: Assets\FootballField\shared.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\shared\CustomPostProcessData.asset
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\shared\CustomPostProcessData.asset
+    projectPath: Assets\FootballField\shared\CustomPostProcessData.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\shared\CustomPostProcessData.asset.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\shared\CustomPostProcessData.asset.meta
+    projectPath: Assets\FootballField\shared\CustomPostProcessData.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\shared\LightingData.asset
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\shared\LightingData.asset
+    projectPath: Assets\FootballField\shared\LightingData.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\shared\LightingData.asset.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\shared\LightingData.asset.meta
+    projectPath: Assets\FootballField\shared\LightingData.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\shared\New Lighting Settings.lighting
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\shared\New
+      Lighting Settings.lighting
+    projectPath: Assets\FootballField\shared\New Lighting Settings.lighting
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\shared\New Lighting Settings.lighting.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\shared\New
+      Lighting Settings.lighting.meta
+    projectPath: Assets\FootballField\shared\New Lighting Settings.lighting.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\shared\postprocessing Profile.asset
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\shared\postprocessing
+      Profile.asset
+    projectPath: Assets\FootballField\shared\postprocessing Profile.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\shared\postprocessing Profile.asset.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\shared\postprocessing
+      Profile.asset.meta
+    projectPath: Assets\FootballField\shared\postprocessing Profile.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\shared\UniversalRenderPipelineAsset.asset
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\shared\UniversalRenderPipelineAsset.asset
+    projectPath: Assets\FootballField\shared\UniversalRenderPipelineAsset.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\shared\UniversalRenderPipelineAsset.asset.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\shared\UniversalRenderPipelineAsset.asset.meta
+    projectPath: Assets\FootballField\shared\UniversalRenderPipelineAsset.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\shared\UniversalRenderPipelineAsset_Renderer.asset
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\shared\UniversalRenderPipelineAsset_Renderer.asset
+    projectPath: Assets\FootballField\shared\UniversalRenderPipelineAsset_Renderer.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\shared\UniversalRenderPipelineAsset_Renderer.asset.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\shared\UniversalRenderPipelineAsset_Renderer.asset.meta
+    projectPath: Assets\FootballField\shared\UniversalRenderPipelineAsset_Renderer.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\textures.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\textures.meta
+    projectPath: Assets\FootballField\textures.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\textures\footballField_goalPost_AlbedoTransparency.png
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\textures\footballField_goalPost_AlbedoTransparency.png
+    projectPath: Assets\FootballField\textures\footballField_goalPost_AlbedoTransparency.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\textures\footballField_goalPost_AlbedoTransparency.png.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\textures\footballField_goalPost_AlbedoTransparency.png.meta
+    projectPath: Assets\FootballField\textures\footballField_goalPost_AlbedoTransparency.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\textures\footballField_goalPost_MetallicSmoothness.png
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\textures\footballField_goalPost_MetallicSmoothness.png
+    projectPath: Assets\FootballField\textures\footballField_goalPost_MetallicSmoothness.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\textures\footballField_goalPost_MetallicSmoothness.png.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\textures\footballField_goalPost_MetallicSmoothness.png.meta
+    projectPath: Assets\FootballField\textures\footballField_goalPost_MetallicSmoothness.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\textures\footballField_goalPost_Normal.png
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\textures\footballField_goalPost_Normal.png
+    projectPath: Assets\FootballField\textures\footballField_goalPost_Normal.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\textures\footballField_goalPost_Normal.png.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\textures\footballField_goalPost_Normal.png.meta
+    projectPath: Assets\FootballField\textures\footballField_goalPost_Normal.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\textures\footballField_grass_AlbedoTransparency.png
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\textures\footballField_grass_AlbedoTransparency.png
+    projectPath: Assets\FootballField\textures\footballField_grass_AlbedoTransparency.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\textures\footballField_grass_AlbedoTransparency.png.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\textures\footballField_grass_AlbedoTransparency.png.meta
+    projectPath: Assets\FootballField\textures\footballField_grass_AlbedoTransparency.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\textures\footballField_grass_MetallicSmoothness.png
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\textures\footballField_grass_MetallicSmoothness.png
+    projectPath: Assets\FootballField\textures\footballField_grass_MetallicSmoothness.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\textures\footballField_grass_MetallicSmoothness.png.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\textures\footballField_grass_MetallicSmoothness.png.meta
+    projectPath: Assets\FootballField\textures\footballField_grass_MetallicSmoothness.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\textures\footballField_grass_Normal.png
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\textures\footballField_grass_Normal.png
+    projectPath: Assets\FootballField\textures\footballField_grass_Normal.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\textures\footballField_grass_Normal.png.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\textures\footballField_grass_Normal.png.meta
+    projectPath: Assets\FootballField\textures\footballField_grass_Normal.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\textures\footballField_lines_AlbedoTransparency.png
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\textures\footballField_lines_AlbedoTransparency.png
+    projectPath: Assets\FootballField\textures\footballField_lines_AlbedoTransparency.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\textures\footballField_lines_AlbedoTransparency.png.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\textures\footballField_lines_AlbedoTransparency.png.meta
+    projectPath: Assets\FootballField\textures\footballField_lines_AlbedoTransparency.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\textures\footballField_lines_MetallicSmoothness.png
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\textures\footballField_lines_MetallicSmoothness.png
+    projectPath: Assets\FootballField\textures\footballField_lines_MetallicSmoothness.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\textures\footballField_lines_MetallicSmoothness.png.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\textures\footballField_lines_MetallicSmoothness.png.meta
+    projectPath: Assets\FootballField\textures\footballField_lines_MetallicSmoothness.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\textures\footballField_lines_Normal.png
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\textures\footballField_lines_Normal.png
+    projectPath: Assets\FootballField\textures\footballField_lines_Normal.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\FootballField\textures\footballField_lines_Normal.png.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\FootballField\textures\footballField_lines_Normal.png.meta
+    projectPath: Assets\FootballField\textures\footballField_lines_Normal.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ForCollider.cs
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\ForCollider.cs
+    projectPath: Assets\ForCollider.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\ForCollider.cs.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\ForCollider.cs.meta
+    projectPath: Assets\ForCollider.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GlobalVariables.cs
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\GlobalVariables.cs
+    projectPath: Assets\GlobalVariables.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\GlobalVariables.cs.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\GlobalVariables.cs.meta
+    projectPath: Assets\GlobalVariables.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Line.prefab
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Line.prefab
+    projectPath: Assets\Line.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Line.prefab.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Line.prefab.meta
+    projectPath: Assets\Line.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Linematerial.mat
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Linematerial.mat
+    projectPath: Assets\Linematerial.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Linematerial.mat.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Linematerial.mat.meta
+    projectPath: Assets\Linematerial.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\OnMouse.cs
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\OnMouse.cs
+    projectPath: Assets\OnMouse.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\OnMouse.cs.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\OnMouse.cs.meta
+    projectPath: Assets\OnMouse.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Player 1.prefab
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Player 1.prefab
+    projectPath: Assets\Player 1.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Player 1.prefab.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Player 1.prefab.meta
+    projectPath: Assets\Player 1.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins.meta
+    projectPath: Assets\Plugins.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub.meta
+    projectPath: Assets\Plugins\GitHub.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor.meta
+    projectPath: Assets\Plugins\GitHub\Editor.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+    projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+    projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+    projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\credits.txt
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\credits.txt
+    projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\credits.txt.meta
+    projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\eula.txt
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\eula.txt
+    projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\eula.txt.meta
+    projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\libsfw.bundle
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\libsfw.so
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\libsfw.so
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+    projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+    projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+    projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+    projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\sfw.net.dll
+    projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\System.Threading.dll
+    projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x64.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\x64.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x86.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\x86.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Scenes.meta
+    projectPath: Assets\Scenes.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\SampleScene.unity
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Scenes\SampleScene.unity
+    projectPath: Assets\Scenes\SampleScene.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scenes\SampleScene.unity.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\Scenes\SampleScene.unity.meta
+    projectPath: Assets\Scenes\SampleScene.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\SelectableLine.cs
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\SelectableLine.cs
+    projectPath: Assets\SelectableLine.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\SelectableLine.cs.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\SelectableLine.cs.meta
+    projectPath: Assets\SelectableLine.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser.meta
+    projectPath: Assets\StandaloneFileBrowser.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\IStandaloneFileBrowser.cs
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\IStandaloneFileBrowser.cs
+    projectPath: Assets\StandaloneFileBrowser\IStandaloneFileBrowser.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\IStandaloneFileBrowser.cs.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\IStandaloneFileBrowser.cs.meta
+    projectPath: Assets\StandaloneFileBrowser\IStandaloneFileBrowser.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Plugins.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Plugins.meta
+    projectPath: Assets\StandaloneFileBrowser\Plugins.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Plugins\Linux.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Plugins\Linux.meta
+    projectPath: Assets\StandaloneFileBrowser\Plugins\Linux.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Plugins\Linux\x86_64.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Plugins\Linux\x86_64.meta
+    projectPath: Assets\StandaloneFileBrowser\Plugins\Linux\x86_64.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Plugins\Linux\x86_64\libStandaloneFileBrowser.so
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Plugins\Linux\x86_64\libStandaloneFileBrowser.so
+    projectPath: Assets\StandaloneFileBrowser\Plugins\Linux\x86_64\libStandaloneFileBrowser.so
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Plugins\Linux\x86_64\libStandaloneFileBrowser.so.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Plugins\Linux\x86_64\libStandaloneFileBrowser.so.meta
+    projectPath: Assets\StandaloneFileBrowser\Plugins\Linux\x86_64\libStandaloneFileBrowser.so.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Plugins\Ookii.Dialogs.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Plugins\Ookii.Dialogs.dll
+    projectPath: Assets\StandaloneFileBrowser\Plugins\Ookii.Dialogs.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Plugins\Ookii.Dialogs.dll.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Plugins\Ookii.Dialogs.dll.meta
+    projectPath: Assets\StandaloneFileBrowser\Plugins\Ookii.Dialogs.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.bundle.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.bundle.meta
+    projectPath: Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.bundle.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.bundle\Contents.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.bundle\Contents.meta
+    projectPath: Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.bundle\Contents.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.bundle\Contents\Info.plist
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.bundle\Contents\Info.plist
+    projectPath: Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.bundle\Contents\Info.plist
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.bundle\Contents\Info.plist.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.bundle\Contents\Info.plist.meta
+    projectPath: Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.bundle\Contents\Info.plist.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.bundle\Contents\MacOS.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.bundle\Contents\MacOS.meta
+    projectPath: Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.bundle\Contents\MacOS.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.bundle\Contents\MacOS\StandaloneFileBrowser
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.bundle\Contents\MacOS\StandaloneFileBrowser
+    projectPath: Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.bundle\Contents\MacOS\StandaloneFileBrowser
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.bundle\Contents\MacOS\StandaloneFileBrowser.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.bundle\Contents\MacOS\StandaloneFileBrowser.meta
+    projectPath: Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.bundle\Contents\MacOS\StandaloneFileBrowser.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.jslib
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.jslib
+    projectPath: Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.jslib
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.jslib.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.jslib.meta
+    projectPath: Assets\StandaloneFileBrowser\Plugins\StandaloneFileBrowser.jslib.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Plugins\System.Windows.Forms.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Plugins\System.Windows.Forms.dll
+    projectPath: Assets\StandaloneFileBrowser\Plugins\System.Windows.Forms.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Plugins\System.Windows.Forms.dll.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Plugins\System.Windows.Forms.dll.meta
+    projectPath: Assets\StandaloneFileBrowser\Plugins\System.Windows.Forms.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Sample.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Sample.meta
+    projectPath: Assets\StandaloneFileBrowser\Sample.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Sample\BasicSample.cs
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Sample\BasicSample.cs
+    projectPath: Assets\StandaloneFileBrowser\Sample\BasicSample.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Sample\BasicSample.cs.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Sample\BasicSample.cs.meta
+    projectPath: Assets\StandaloneFileBrowser\Sample\BasicSample.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Sample\BasicSampleScene.unity
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Sample\BasicSampleScene.unity
+    projectPath: Assets\StandaloneFileBrowser\Sample\BasicSampleScene.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Sample\BasicSampleScene.unity.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Sample\BasicSampleScene.unity.meta
+    projectPath: Assets\StandaloneFileBrowser\Sample\BasicSampleScene.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileImage.cs
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileImage.cs
+    projectPath: Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileImage.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileImage.cs.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileImage.cs.meta
+    projectPath: Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileImage.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileText.cs
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileText.cs
+    projectPath: Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileText.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileText.cs.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileText.cs.meta
+    projectPath: Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileText.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileTextMultiple.cs
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileTextMultiple.cs
+    projectPath: Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileTextMultiple.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileTextMultiple.cs.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileTextMultiple.cs.meta
+    projectPath: Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileTextMultiple.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Sample\CanvasSampleSaveFileImage.cs
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Sample\CanvasSampleSaveFileImage.cs
+    projectPath: Assets\StandaloneFileBrowser\Sample\CanvasSampleSaveFileImage.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Sample\CanvasSampleSaveFileImage.cs.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Sample\CanvasSampleSaveFileImage.cs.meta
+    projectPath: Assets\StandaloneFileBrowser\Sample\CanvasSampleSaveFileImage.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Sample\CanvasSampleSaveFileText.cs
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Sample\CanvasSampleSaveFileText.cs
+    projectPath: Assets\StandaloneFileBrowser\Sample\CanvasSampleSaveFileText.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Sample\CanvasSampleSaveFileText.cs.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Sample\CanvasSampleSaveFileText.cs.meta
+    projectPath: Assets\StandaloneFileBrowser\Sample\CanvasSampleSaveFileText.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Sample\CanvasSampleScene.unity
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Sample\CanvasSampleScene.unity
+    projectPath: Assets\StandaloneFileBrowser\Sample\CanvasSampleScene.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\Sample\CanvasSampleScene.unity.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\Sample\CanvasSampleScene.unity.meta
+    projectPath: Assets\StandaloneFileBrowser\Sample\CanvasSampleScene.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\StandaloneFileBrowser.cs
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\StandaloneFileBrowser.cs
+    projectPath: Assets\StandaloneFileBrowser\StandaloneFileBrowser.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\StandaloneFileBrowser.cs.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\StandaloneFileBrowser.cs.meta
+    projectPath: Assets\StandaloneFileBrowser\StandaloneFileBrowser.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\StandaloneFileBrowserEditor.cs
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\StandaloneFileBrowserEditor.cs
+    projectPath: Assets\StandaloneFileBrowser\StandaloneFileBrowserEditor.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\StandaloneFileBrowserEditor.cs.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\StandaloneFileBrowserEditor.cs.meta
+    projectPath: Assets\StandaloneFileBrowser\StandaloneFileBrowserEditor.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\StandaloneFileBrowserLinux.cs
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\StandaloneFileBrowserLinux.cs
+    projectPath: Assets\StandaloneFileBrowser\StandaloneFileBrowserLinux.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\StandaloneFileBrowserLinux.cs.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\StandaloneFileBrowserLinux.cs.meta
+    projectPath: Assets\StandaloneFileBrowser\StandaloneFileBrowserLinux.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\StandaloneFileBrowserMac.cs
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\StandaloneFileBrowserMac.cs
+    projectPath: Assets\StandaloneFileBrowser\StandaloneFileBrowserMac.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\StandaloneFileBrowserMac.cs.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\StandaloneFileBrowserMac.cs.meta
+    projectPath: Assets\StandaloneFileBrowser\StandaloneFileBrowserMac.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\StandaloneFileBrowserWindows.cs
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\StandaloneFileBrowserWindows.cs
+    projectPath: Assets\StandaloneFileBrowser\StandaloneFileBrowserWindows.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StandaloneFileBrowser\StandaloneFileBrowserWindows.cs.meta
+    fullPath: C:\Users\alain\unityprojects\editor\Assets\StandaloneFileBrowser\StandaloneFileBrowserWindows.cs.meta
+    projectPath: Assets\StandaloneFileBrowser\StandaloneFileBrowserWindows.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: packages.config
+    fullPath: C:\Users\alain\unityprojects\editor\packages.config
+    projectPath: packages.config
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Packages\manifest.json
+    fullPath: C:\Users\alain\unityprojects\editor\Packages\manifest.json
+    projectPath: Packages\manifest.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Packages\Newtonsoft.Json.13.0.1\.signature.p7s
+    fullPath: C:\Users\alain\unityprojects\editor\Packages\Newtonsoft.Json.13.0.1\.signature.p7s
+    projectPath: Packages\Newtonsoft.Json.13.0.1\.signature.p7s
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Packages\Newtonsoft.Json.13.0.1\lib\net20\Newtonsoft.Json.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Packages\Newtonsoft.Json.13.0.1\lib\net20\Newtonsoft.Json.dll
+    projectPath: Packages\Newtonsoft.Json.13.0.1\lib\net20\Newtonsoft.Json.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Packages\Newtonsoft.Json.13.0.1\lib\net20\Newtonsoft.Json.xml
+    fullPath: C:\Users\alain\unityprojects\editor\Packages\Newtonsoft.Json.13.0.1\lib\net20\Newtonsoft.Json.xml
+    projectPath: Packages\Newtonsoft.Json.13.0.1\lib\net20\Newtonsoft.Json.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Packages\Newtonsoft.Json.13.0.1\lib\net35\Newtonsoft.Json.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Packages\Newtonsoft.Json.13.0.1\lib\net35\Newtonsoft.Json.dll
+    projectPath: Packages\Newtonsoft.Json.13.0.1\lib\net35\Newtonsoft.Json.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Packages\Newtonsoft.Json.13.0.1\lib\net35\Newtonsoft.Json.xml
+    fullPath: C:\Users\alain\unityprojects\editor\Packages\Newtonsoft.Json.13.0.1\lib\net35\Newtonsoft.Json.xml
+    projectPath: Packages\Newtonsoft.Json.13.0.1\lib\net35\Newtonsoft.Json.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Packages\Newtonsoft.Json.13.0.1\lib\net40\Newtonsoft.Json.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Packages\Newtonsoft.Json.13.0.1\lib\net40\Newtonsoft.Json.dll
+    projectPath: Packages\Newtonsoft.Json.13.0.1\lib\net40\Newtonsoft.Json.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Packages\Newtonsoft.Json.13.0.1\lib\net40\Newtonsoft.Json.xml
+    fullPath: C:\Users\alain\unityprojects\editor\Packages\Newtonsoft.Json.13.0.1\lib\net40\Newtonsoft.Json.xml
+    projectPath: Packages\Newtonsoft.Json.13.0.1\lib\net40\Newtonsoft.Json.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll
+    projectPath: Packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.xml
+    fullPath: C:\Users\alain\unityprojects\editor\Packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.xml
+    projectPath: Packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Packages\Newtonsoft.Json.13.0.1\lib\netstandard1.0\Newtonsoft.Json.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Packages\Newtonsoft.Json.13.0.1\lib\netstandard1.0\Newtonsoft.Json.dll
+    projectPath: Packages\Newtonsoft.Json.13.0.1\lib\netstandard1.0\Newtonsoft.Json.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Packages\Newtonsoft.Json.13.0.1\lib\netstandard1.0\Newtonsoft.Json.xml
+    fullPath: C:\Users\alain\unityprojects\editor\Packages\Newtonsoft.Json.13.0.1\lib\netstandard1.0\Newtonsoft.Json.xml
+    projectPath: Packages\Newtonsoft.Json.13.0.1\lib\netstandard1.0\Newtonsoft.Json.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Packages\Newtonsoft.Json.13.0.1\lib\netstandard1.3\Newtonsoft.Json.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Packages\Newtonsoft.Json.13.0.1\lib\netstandard1.3\Newtonsoft.Json.dll
+    projectPath: Packages\Newtonsoft.Json.13.0.1\lib\netstandard1.3\Newtonsoft.Json.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Packages\Newtonsoft.Json.13.0.1\lib\netstandard1.3\Newtonsoft.Json.xml
+    fullPath: C:\Users\alain\unityprojects\editor\Packages\Newtonsoft.Json.13.0.1\lib\netstandard1.3\Newtonsoft.Json.xml
+    projectPath: Packages\Newtonsoft.Json.13.0.1\lib\netstandard1.3\Newtonsoft.Json.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Packages\Newtonsoft.Json.13.0.1\lib\netstandard2.0\Newtonsoft.Json.dll
+    fullPath: C:\Users\alain\unityprojects\editor\Packages\Newtonsoft.Json.13.0.1\lib\netstandard2.0\Newtonsoft.Json.dll
+    projectPath: Packages\Newtonsoft.Json.13.0.1\lib\netstandard2.0\Newtonsoft.Json.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Packages\Newtonsoft.Json.13.0.1\lib\netstandard2.0\Newtonsoft.Json.xml
+    fullPath: C:\Users\alain\unityprojects\editor\Packages\Newtonsoft.Json.13.0.1\lib\netstandard2.0\Newtonsoft.Json.xml
+    projectPath: Packages\Newtonsoft.Json.13.0.1\lib\netstandard2.0\Newtonsoft.Json.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Packages\Newtonsoft.Json.13.0.1\LICENSE.md
+    fullPath: C:\Users\alain\unityprojects\editor\Packages\Newtonsoft.Json.13.0.1\LICENSE.md
+    projectPath: Packages\Newtonsoft.Json.13.0.1\LICENSE.md
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Packages\Newtonsoft.Json.13.0.1\Newtonsoft.Json.13.0.1.nupkg
+    fullPath: C:\Users\alain\unityprojects\editor\Packages\Newtonsoft.Json.13.0.1\Newtonsoft.Json.13.0.1.nupkg
+    projectPath: Packages\Newtonsoft.Json.13.0.1\Newtonsoft.Json.13.0.1.nupkg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Packages\Newtonsoft.Json.13.0.1\packageIcon.png
+    fullPath: C:\Users\alain\unityprojects\editor\Packages\Newtonsoft.Json.13.0.1\packageIcon.png
+    projectPath: Packages\Newtonsoft.Json.13.0.1\packageIcon.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Packages\packages-lock.json
+    fullPath: C:\Users\alain\unityprojects\editor\Packages\packages-lock.json
+    projectPath: Packages\packages-lock.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\AudioManager.asset
+    fullPath: C:\Users\alain\unityprojects\editor\ProjectSettings\AudioManager.asset
+    projectPath: ProjectSettings\AudioManager.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\ClusterInputManager.asset
+    fullPath: C:\Users\alain\unityprojects\editor\ProjectSettings\ClusterInputManager.asset
+    projectPath: ProjectSettings\ClusterInputManager.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\DynamicsManager.asset
+    fullPath: C:\Users\alain\unityprojects\editor\ProjectSettings\DynamicsManager.asset
+    projectPath: ProjectSettings\DynamicsManager.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\EditorBuildSettings.asset
+    fullPath: C:\Users\alain\unityprojects\editor\ProjectSettings\EditorBuildSettings.asset
+    projectPath: ProjectSettings\EditorBuildSettings.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\EditorSettings.asset
+    fullPath: C:\Users\alain\unityprojects\editor\ProjectSettings\EditorSettings.asset
+    projectPath: ProjectSettings\EditorSettings.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\GraphicsSettings.asset
+    fullPath: C:\Users\alain\unityprojects\editor\ProjectSettings\GraphicsSettings.asset
+    projectPath: ProjectSettings\GraphicsSettings.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\InputManager.asset
+    fullPath: C:\Users\alain\unityprojects\editor\ProjectSettings\InputManager.asset
+    projectPath: ProjectSettings\InputManager.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\NavMeshAreas.asset
+    fullPath: C:\Users\alain\unityprojects\editor\ProjectSettings\NavMeshAreas.asset
+    projectPath: ProjectSettings\NavMeshAreas.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\NetworkManager.asset
+    fullPath: C:\Users\alain\unityprojects\editor\ProjectSettings\NetworkManager.asset
+    projectPath: ProjectSettings\NetworkManager.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\PackageManagerSettings.asset
+    fullPath: C:\Users\alain\unityprojects\editor\ProjectSettings\PackageManagerSettings.asset
+    projectPath: ProjectSettings\PackageManagerSettings.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\Physics2DSettings.asset
+    fullPath: C:\Users\alain\unityprojects\editor\ProjectSettings\Physics2DSettings.asset
+    projectPath: ProjectSettings\Physics2DSettings.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\PresetManager.asset
+    fullPath: C:\Users\alain\unityprojects\editor\ProjectSettings\PresetManager.asset
+    projectPath: ProjectSettings\PresetManager.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\ProjectSettings.asset
+    fullPath: C:\Users\alain\unityprojects\editor\ProjectSettings\ProjectSettings.asset
+    projectPath: ProjectSettings\ProjectSettings.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\ProjectVersion.txt
+    fullPath: C:\Users\alain\unityprojects\editor\ProjectSettings\ProjectVersion.txt
+    projectPath: ProjectSettings\ProjectVersion.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\QualitySettings.asset
+    fullPath: C:\Users\alain\unityprojects\editor\ProjectSettings\QualitySettings.asset
+    projectPath: ProjectSettings\QualitySettings.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\SceneTemplateSettings.json
+    fullPath: C:\Users\alain\unityprojects\editor\ProjectSettings\SceneTemplateSettings.json
+    projectPath: ProjectSettings\SceneTemplateSettings.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\TagManager.asset
+    fullPath: C:\Users\alain\unityprojects\editor\ProjectSettings\TagManager.asset
+    projectPath: ProjectSettings\TagManager.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\TimelineSettings.asset
+    fullPath: C:\Users\alain\unityprojects\editor\ProjectSettings\TimelineSettings.asset
+    projectPath: ProjectSettings\TimelineSettings.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\TimeManager.asset
+    fullPath: C:\Users\alain\unityprojects\editor\ProjectSettings\TimeManager.asset
+    projectPath: ProjectSettings\TimeManager.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\UnityConnectSettings.asset
+    fullPath: C:\Users\alain\unityprojects\editor\ProjectSettings\UnityConnectSettings.asset
+    projectPath: ProjectSettings\UnityConnectSettings.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\URPProjectSettings.asset
+    fullPath: C:\Users\alain\unityprojects\editor\ProjectSettings\URPProjectSettings.asset
+    projectPath: ProjectSettings\URPProjectSettings.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\VersionControlSettings.asset
+    fullPath: C:\Users\alain\unityprojects\editor\ProjectSettings\VersionControlSettings.asset
+    projectPath: ProjectSettings\VersionControlSettings.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\VFXManager.asset
+    fullPath: C:\Users\alain\unityprojects\editor\ProjectSettings\VFXManager.asset
+    projectPath: ProjectSettings\VFXManager.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\XRSettings.asset
+    fullPath: C:\Users\alain\unityprojects\editor\ProjectSettings\XRSettings.asset
+    projectPath: ProjectSettings\XRSettings.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: test.json
+    fullPath: C:\Users\alain\unityprojects\editor\test.json
+    projectPath: test.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: test2.json
+    fullPath: C:\Users\alain\unityprojects\editor\test2.json
+    projectPath: test2.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: test3.json
+    fullPath: C:\Users\alain\unityprojects\editor\test3.json
+    projectPath: test3.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: test4.json
+    fullPath: C:\Users\alain\unityprojects\editor\test4.json
+    projectPath: test4.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: test5.json
+    fullPath: C:\Users\alain\unityprojects\editor\test5.json
+    projectPath: test5.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: test6.json
+    fullPath: C:\Users\alain\unityprojects\editor\test6.json
+    projectPath: test6.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: test7.json
+    fullPath: C:\Users\alain\unityprojects\editor\test7.json
+    projectPath: test7.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: UserSettings\EditorUserSettings.asset
+    fullPath: C:\Users\alain\unityprojects\editor\UserSettings\EditorUserSettings.asset
+    projectPath: UserSettings\EditorUserSettings.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: UserSettings\QuickSearch.settings
+    fullPath: C:\Users\alain\unityprojects\editor\UserSettings\QuickSearch.settings
+    projectPath: UserSettings\QuickSearch.settings
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
