@@ -1,4 +1,4 @@
-"# olinetrainer_editor" 
+Desktop Application to create plays for the Offensive Line Simulation.
 
 YOU MAY NOT USE THIS SOFTWARE FOR ANY COMMERCIAL PURPOSES WITHOUT BUYING THE PRODUCT
 
