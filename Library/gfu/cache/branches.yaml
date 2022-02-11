@@ -13,15 +13,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-05-30T10:02:40.231-04:00
-  initializedAtString: 2021-05-30T10:02:40.220-04:00
+  lastUpdatedAtString: 2022-02-10T22:07:02.848-05:00
+  initializedAtString: 2022-02-10T22:07:02.808-05:00
   localBranches:
-  - name: master
+  - name: dev
     tracking: 
-  remoteBranches: []
+  - name: main
+    tracking: origin/main
+  remoteBranches:
+  - name: origin/dev
+    tracking: '[None]'
+  - name: origin/main
+    tracking: '[None]'
   remotes:
   - name: origin
-    url: github.com:swisstackle/olinetrainer_editor.git
+    url: https://github.com/swisstackle/olinetrainer_editor.git
     login: 
     user: 
     host: 
@@ -29,20 +35,41 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - master
+    - dev
+    - main
     values:
-    - name: master
+    - name: dev
       remote:
         name: 
         url: 
       trackingBranch: 
+    - name: main
+      remote:
+        name: origin
+        url: https://github.com/swisstackle/olinetrainer_editor.git
+      trackingBranch: main
   remoteConfigBranches:
-    keys: []
-    subKeys: []
-    subKeyValues: []
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - dev
+      - main
+    subKeyValues:
+    - Values:
+      - name: dev
+        remote:
+          name: origin
+          url: https://github.com/swisstackle/olinetrainer_editor.git
+        trackingBranch: 
+      - name: main
+        remote:
+          name: origin
+          url: https://github.com/swisstackle/olinetrainer_editor.git
+        trackingBranch: 
   configRemotes:
     keys:
     - origin
     values:
     - name: origin
-      url: github.com:swisstackle/olinetrainer_editor.git
+      url: https://github.com/swisstackle/olinetrainer_editor.git
