@@ -2,20 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using UnityEngine.UI;
+
 using System.Reflection;
 using System.IO;
 using Newtonsoft.Json;
 using UnityEngine.EventSystems;
 using SFB;
 using System.Threading;
+using UnityEngine.UI;
+
 public class DrawLine : MonoBehaviour
 {
     [SerializeField] private GameObject linePrefab;
     [SerializeField] private GameObject currentLine;
     [SerializeField] private LineRenderer lineRenderer;
     [SerializeField] private List<Vector2> fingerPositions;
-    public List<GameObject> lines;
+    public List<GameObject> defensiveLines;// just for open
+    public List<GameObject> olineLines;
 
 
     [SerializeField] private GameObject playerPrefab;
@@ -44,7 +47,9 @@ public class DrawLine : MonoBehaviour
     {
         players = new List<GameObject>();
 
-        lines = new List<GameObject>();
+        defensiveLines = new List<GameObject>();
+        olineLines = new List<GameObject>();
+
         UnityEngine.UI.Button btn = clearButton.GetComponent<UnityEngine.UI.Button>();
         btn.onClick.AddListener(Clear);
         
@@ -72,9 +77,13 @@ public class DrawLine : MonoBehaviour
      */
     void Update()
     {
+        //TODO: Change to switch case for better readability
         if (!EventSystem.current.IsPointerOverGameObject())
         {
-           if (Input.GetMouseButton(0) && (Input.GetKey(KeyCode.LeftShift)) && !(Input.GetKey(KeyCode.LeftControl)))
+            /*
+             * If statement breakdown: If the mouse button is pressed and either leftalt or leftshift is pressed, it updates the line. (leftalt for oline line and left shift for defensive player line). The nots are just so that there is no interference with other functionalities
+             */
+           if (Input.GetMouseButton(0) && (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.LeftAlt)) && !(Input.GetKey(KeyCode.LeftControl)))
             {
                 try // try catch it because I cant check if mouseposition is on a player or not in this script. I know it's ugly, deal wit it.
                 {
@@ -90,6 +99,7 @@ public class DrawLine : MonoBehaviour
                 }
 
             }
+            
             else if ((Input.GetKey(KeyCode.LeftControl)) && Input.GetMouseButtonDown(0) && !((Input.GetKey(KeyCode.LeftShift))))
             {
                 CreatePlayer();
@@ -126,9 +136,35 @@ public class DrawLine : MonoBehaviour
 
                 collider.SetPoints(fingerPositions);
 
-                lines.Add(currentLine);
+                defensiveLines.Add(currentLine);
             }
         }
+    public void CreateOlineLine()
+    {
+        //Check first if mouse lays on one of the buttons; if so, then dont create the line obviously.
+
+        Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        if (!EventSystem.current.IsPointerOverGameObject())
+        {
+            currentLine = Instantiate(linePrefab, Vector3.zero, Quaternion.identity);
+            currentLine.transform.tag = "Selectable";
+            lineRenderer = currentLine.GetComponent<LineRenderer>();
+            fingerPositions.Clear();
+            
+
+            fingerPositions.Add(mousePos);
+            fingerPositions.Add(mousePos);
+            lineRenderer.SetPosition(0, fingerPositions[0]);
+            lineRenderer.SetPosition(1, fingerPositions[1]);
+
+            collider = currentLine.GetComponent<EdgeCollider2D>();
+
+            collider.SetPoints(fingerPositions);
+
+            olineLines.Add(currentLine);
+        }
+        Debug.Log("Created Oline Line");
+    }
     /*
      * <summary>
      * Updates a line and adds all new positions to the line according to the mouseposition. 
@@ -142,6 +178,7 @@ public class DrawLine : MonoBehaviour
             lineRenderer.positionCount++;
             lineRenderer.SetPosition(lineRenderer.positionCount - 1, newFingerPos);
             addColliderPoints(newFingerPos);
+            Debug.Log("Updating line");
         }
     }
     /*
@@ -187,11 +224,11 @@ public class DrawLine : MonoBehaviour
     void Clear()
     {
         fingerPositions.Clear();
-        foreach(GameObject l in lines)
+        foreach(GameObject l in defensiveLines)
         {
             GameObject.Destroy(l);
         }
-        lines.Clear();
+        defensiveLines.Clear();
         foreach (GameObject l in players)
         {
             GameObject.Destroy(l);
@@ -206,7 +243,7 @@ public class DrawLine : MonoBehaviour
     {
         ClearLog();
 
-        foreach (GameObject line in lines)
+        foreach (GameObject line in defensiveLines)
         {
             Debug.Log("New Line");
             LineRenderer ren = line.GetComponent<LineRenderer>();
@@ -239,7 +276,7 @@ public class DrawLine : MonoBehaviour
     {
         //Convert to vector 3 
         List<Vector3[]> tempLines = new List<Vector3[]>();
-        foreach (GameObject line in lines){
+        foreach (GameObject line in defensiveLines){
             LineRenderer tempLineRenderer = line.GetComponent<LineRenderer>();
             int posAmount = tempLineRenderer.positionCount;
 
@@ -249,21 +286,41 @@ public class DrawLine : MonoBehaviour
               
             tempLines.Add(tempPositions);
         }
+        List<Vector3[]> tempLinesOline = new List<Vector3[]>();
+        foreach (GameObject line in olineLines)
+        {
+            LineRenderer tempLineRenderer = line.GetComponent<LineRenderer>();
+            int posAmount = tempLineRenderer.positionCount;
+
+            Vector3[] tempPositions = new Vector3[posAmount];
+
+            tempLineRenderer.GetPositions(tempPositions);
+
+            tempLinesOline.Add(tempPositions);
+        }
+        
+
         Vector3[][] tempArray = tempLines.ToArray();
+        Vector3[][] tempArrayOline = tempLinesOline.ToArray();
 
         var settings = new Newtonsoft.Json.JsonSerializerSettings();
         
         // This tells your serializer that multiple references are okay.
         settings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
         string json = JsonConvert.SerializeObject(tempArray,settings);
+        string jsonOline = JsonConvert.SerializeObject(tempArrayOline, settings);
+
         var extensionFilter = new[]
         {
             new ExtensionFilter("JSON","json")
         };
-        string sfd = StandaloneFileBrowser.SaveFilePanel("Save Play", "C:\\Users\\alain\\Documents", "play.json",extensionFilter);
+        string sfd = StandaloneFileBrowser.SaveFilePanel("Save Play", "C:\\Users\\alain\\Box\\jsontests", "play.json",extensionFilter);
         if(sfd.Length > 0)
         {
-            File.WriteAllText(sfd, json);
+            //File.WriteAllText(sfd, json);
+
+            File.WriteAllText(sfd, json +'$' + jsonOline);
+            
         }
         
 
@@ -285,12 +342,19 @@ public class DrawLine : MonoBehaviour
         {
             string path = paths[0];
             var settings = new Newtonsoft.Json.JsonSerializerSettings();
+            string json = File.ReadAllText(path);
+            string[] splitLines = json.Split('$');
+            
 
             // This tells your serializer that multiple references are okay.
-            settings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
-            Vector3[][] mylines = JsonConvert.DeserializeObject<Vector3[][]>(File.ReadAllText(path), settings);
+            //settings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+            Vector3[][] dLines = JsonConvert.DeserializeObject<Vector3[][]>(splitLines[0], settings);
+            Vector3[][] oLines = JsonConvert.DeserializeObject<Vector3[][]>(splitLines[1], settings);
 
-            for (int i = 0; i < mylines.GetLength(0); i++)
+            Debug.Log(oLines[0][0]);
+
+
+            for (int i = 0; i < dLines.GetLength(0); i++)
             {
 
                 currentLine = Instantiate(linePrefab, Vector3.zero, Quaternion.identity);
@@ -301,7 +365,7 @@ public class DrawLine : MonoBehaviour
 
 
                 lineRenderer.positionCount = 0;
-                int innerLength = mylines[i].Length;
+                int innerLength = dLines[i].Length;
 
                 for (int j = 0; j < innerLength; j++)
                 {
@@ -310,12 +374,42 @@ public class DrawLine : MonoBehaviour
                     lineRenderer.positionCount++;
 
 
-                    lineRenderer.SetPosition(lineRenderer.positionCount - 1, mylines[i][j]);
+                    lineRenderer.SetPosition(lineRenderer.positionCount - 1, dLines[i][j]);
 
 
 
                 }
                 currentLine.SetActive(true);
+                defensiveLines.Add(currentLine);
+            }
+
+            for (int i = 0; i < oLines.GetLength(0); i++)
+            {
+
+                currentLine = Instantiate(linePrefab, Vector3.zero, Quaternion.identity);
+
+
+                lineRenderer = currentLine.GetComponent<LineRenderer>();
+
+
+
+                lineRenderer.positionCount = 0;
+                int innerLength = oLines[i].Length;
+
+                for (int j = 0; j < innerLength; j++)
+                {
+
+
+                    lineRenderer.positionCount++;
+
+
+                    lineRenderer.SetPosition(lineRenderer.positionCount - 1, oLines[i][j]);
+
+
+
+                }
+                currentLine.SetActive(true);
+                olineLines.Add(currentLine);
             }
         }
     }
@@ -340,6 +434,8 @@ public class DrawLine : MonoBehaviour
 
   
     }
+
+    
 
 
 

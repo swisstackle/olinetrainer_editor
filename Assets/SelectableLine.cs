@@ -60,7 +60,8 @@ public class SelectableLine : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Delete))
             {
-                dl.lines.Remove(this.gameObject);
+                dl.defensiveLines.Remove(this.gameObject);
+                dl.olineLines.Remove(this.gameObject); // if it was an oline line, the oline line gets removed
                 GameObject.Destroy(this.gameObject);
             }
         }

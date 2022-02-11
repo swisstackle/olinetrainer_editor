@@ -32,9 +32,13 @@ public class ForCollider : MonoBehaviour
     */
     private void OnMouseDown()
     {
-        if ((Input.GetKey(KeyCode.LeftShift)) && !(Input.GetKey(KeyCode.LeftControl)))
+        if ((Input.GetKey(KeyCode.LeftShift)) && !(Input.GetKey(KeyCode.LeftControl)) && !(Input.GetKey(KeyCode.LeftAlt)))
         {
             dl.CreateLine();
+        }
+        else if ((Input.GetKey(KeyCode.LeftAlt) && !(Input.GetKey(KeyCode.LeftControl)) && !(Input.GetKey(KeyCode.LeftShift))))
+        {
+            dl.CreateOlineLine();
         }
         else if (transform.CompareTag(selectableTag)){
             if (renderer != null)
